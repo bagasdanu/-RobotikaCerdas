@@ -9,7 +9,7 @@ Adafruit_PWMServoDriver pca = Adafruit_PWMServoDriver(0x40);
 #define TILT_MIN    150
 #define TILT_MAX    526
 const int CH0_START = 3,   CH0_END = 43;
-const int CH1_START = 165, CH1_END = 125;
+const int CH1_START = 165, CH1_END = 125; 
 
 // Pan (CH2)
 #define PAN_CH      2
